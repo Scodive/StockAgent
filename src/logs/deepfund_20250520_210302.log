@@ -1,0 +1,2 @@
+INFO - SQLite database initialized
+ERROR - Please update test_exp_name and test_ticker in src/analysis_service.py before running the test.

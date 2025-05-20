@@ -1,4 +1,27 @@
-# 💰💰  DeepFund 🔥🔥
+# ��💰  DeepFund 🔥🔥
+
+**近期主要更新 (截至 2025-05-20):**
+
+本项目近期进行了一系列重要更新基于DeepFund基线模型，旨在增强其分析能力、支持历史回测，并为未来的前端交互界面奠定基础。主要变更包括：
+
+*   **核心分析流程重构 (`src/main.py`)**:
+    *   将单日分析逻辑提取到可复用的 `run_single_day_analysis` 函数中，便于程序化调用和批量处理。
+*   **历史分析数据生成 (`src/generate_historical_analysis.py`)**:
+    *   新增脚本，用于批量执行指定日期范围内的每日分析，并将结果（包括分析师信号、决策、投资组合变动等）存入数据库。
+    *   支持从特定配置启动，并能处理节假日，仅针对交易日进行分析。
+*   **数据分析服务 (`src/analysis_service.py`)**:
+    *   新增服务模块，提供 `get_historical_summary` 函数。
+    *   该函数能从数据库中检索特定股票在指定实验配置和时间段内的所有分析师信号、决策，并（可选地，通过yfinance）整合股价信息。
+    *   输出结构化的JSON，包含每日明细、整体趋势摘要和统计数据，为前端展示和API服务做好准备。
+*   **配置和数据库工具更新 (`src/util/config.py`, `src/database/sqlite_helper.py`)**:
+    *   `ConfigParser` 修改为可直接接受配置文件路径和交易日期字符串，以支持程序化调用。
+    *   `sqlite_helper.py` 中增加了新的查询方法，如 `get_config_id_by_name`, `get_signals_for_ticker_period`, `get_decisions_for_ticker_period`，以支持上述服务的数据提取需求。相关的表结构和查询逻辑也进行了适配和优化。
+*   **错误处理与健壮性**:
+    *   增强了日期比较、API调用（如Alpha Vantage频率限制的识别）等方面的错误处理和日志记录。
+*   **目标方向**:
+    *   这些更新是为了将系统逐步改造为一个能够支持A股市场分析、提供历史趋势洞察，并最终通过前端界面展示实时买卖点建议的平台。
+
+---
 
 [![arXiv](https://img.shields.io/badge/arXiv-2503.18313-b31b1b.svg?style=flat)](https://arxiv.org/abs/2503.18313)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB.svg?style=flat)](https://www.python.org/downloads/release/python-3110/)
@@ -176,7 +199,7 @@ deepfund/
 
 ### Financial Data Source 
 - Alpha Vantage API: Stock Market Data API, [Claim Free API Key](https://www.alphavantage.co)
-- YFinance API: Download Market Data from Yahoo! Finance’s API, [Doc](https://yfinance-python.org/)
+- YFinance API: Download Market Data from Yahoo! Finance's API, [Doc](https://yfinance-python.org/)
 
 
 ## Advanced Usage
@@ -253,3 +276,28 @@ If you find this project useful, please cite it as follows:
       url={https://arxiv.org/abs/2503.18313}, 
 }
 ```
+
+# DeepFund Trading System
+
+**近期主要更新 (截至 YYYY-MM-DD):**
+
+本项目近期进行了一系列重要更新，旨在增强其分析能力、支持历史回测，并为未来的前端交互界面奠定基础。主要变更包括：
+
+*   **核心分析流程重构 (`src/main.py`)**:
+    *   将单日分析逻辑提取到可复用的 `run_single_day_analysis` 函数中，便于程序化调用和批量处理。
+*   **历史分析数据生成 (`src/generate_historical_analysis.py`)**:
+    *   新增脚本，用于批量执行指定日期范围内的每日分析，并将结果（包括分析师信号、决策、投资组合变动等）存入数据库。
+    *   支持从特定配置启动，并能处理节假日，仅针对交易日进行分析。
+*   **数据分析服务 (`src/analysis_service.py`)**:
+    *   新增服务模块，提供 `get_historical_summary` 函数。
+    *   该函数能从数据库中检索特定股票在指定实验配置和时间段内的所有分析师信号、决策，并（可选地，通过yfinance）整合股价信息。
+    *   输出结构化的JSON，包含每日明细、整体趋势摘要和统计数据，为前端展示和API服务做好准备。
+*   **配置和数据库工具更新 (`src/util/config.py`, `src/database/sqlite_helper.py`)**:
+    *   `ConfigParser` 修改为可直接接受配置文件路径和交易日期字符串，以支持程序化调用。
+    *   `sqlite_helper.py` 中增加了新的查询方法，如 `get_config_id_by_name`, `get_signals_for_ticker_period`, `get_decisions_for_ticker_period`，以支持上述服务的数据提取需求。相关的表结构和查询逻辑也进行了适配和优化。
+*   **错误处理与健壮性**:
+    *   增强了日期比较、API调用（如Alpha Vantage频率限制的识别）等方面的错误处理和日志记录。
+*   **目标方向**:
+    *   这些更新是为了将系统逐步改造为一个能够支持A股市场分析、提供历史趋势洞察，并最终通过前端界面展示实时买卖点建议的平台。
+
+---

@@ -1,0 +1,5 @@
+INFO - SQLite database initialized
+INFO - Running test for get_historical_summary with exp='ollama-test', ticker='BABA'
+INFO - Fetching historical summary for exp_name='ollama-test' (config_id=9b722c9f-16fc-41c3-a909-2c92cb738578), ticker='BABA', period='2025-05-01' to '2023-05-20'
+INFO - Price fetching from yfinance is available but commented out. prices_raw will be empty.
+INFO - Test run successful. Summary data (first 2 daily entries shown if available):

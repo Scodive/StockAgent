@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepFund 智能投顾</title>
+    <link rel="stylesheet" href="style.css"> <!-- 引入CSS样式文件 -->
+</head>
+<body>
+    <header>
+        <h1>DeepFund 智能投顾</h1>
+        <div class="stock-input-area">
+            <label for="tickerInput">股票代码:</label>
+            <input type="text" id="tickerInput" placeholder="例如: 600036.SS">
+            <button id="analyzeButton">分析</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="historicalAnalysisView" style="display: none;"> <!-- 初始隐藏 -->
+            <h2>历史趋势分析</h2>
+            <div class="stock-info">
+                <p><strong>股票:</strong> <span id="stockName">-</span> (<span id="stockTicker">-</span>)</p>
+                <p><strong>实验配置:</strong> <span id="expName">-</span></p>
+                <p><strong>分析周期:</strong> <span id="analysisPeriod">-</span></p>
+            </div>
+
+            <div class="summary-text">
+                <h3>总体趋势摘要:</h3>
+                <p id="overallTrendSummary">-</p>
+            </div>
+
+            <div class="charts-container">
+                <h3>价格与信号图表:</h3>
+                <!-- 这里未来会用JavaScript库 (如Chart.js, ECharts) 来绘制图表 -->
+                <div id="priceChartPlaceholder" style="width:100%; height:400px; border:1px solid #ccc; text-align:center; line-height:400px;">
+                    图表区域 (K线、买卖点标记)
+                </div>
+            </div>
+
+            <div class="daily-breakdown">
+                <h3>每日分析明细:</h3>
+                <table id="dailyAnalysisTable">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>分析师信号</th>
+                            <th>基金经理决策</th>
+                            <th>当日情绪</th>
+                            <th>价格 (收盘)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dailyAnalysisTableBody">
+                        <!-- JavaScript会在这里填充数据 -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="statistics">
+                <h3>统计数据:</h3>
+                <p>总分析天数: <span id="totalDaysAnalyzed">-</span></p>
+                <p>看涨情绪天数: <span id="bullishDays">-</span></p>
+                <p>看跌情绪天数: <span id="bearishDays">-</span></p>
+                <p>中性情绪天数: <span id="neutralDays">-</span></p>
+            </div>
+        </section>
+
+        <section id="realtimeMonitoringView" style="display: none;"> <!-- 初始隐藏 -->
+            <h2>实时监控与交易信号</h2>
+            <div class="realtime-info">
+                <p><strong>当前股票:</strong> <span id="realtimeStockTicker">-</span></p>
+                <p><strong>最新价格:</strong> <span id="realtimeCurrentPrice" style="font-size: 1.5em; font-weight: bold;">-</span></p>
+            </div>
+            <div id="realtimeSignalArea" class="signal-box">
+                <h3 id="realtimeSignalText">建议：-</h3>
+                <p id="realtimeSignalReason" style="font-size: 0.9em;">-</p>
+            </div>
+            <!-- 实时分时图等 -->
+        </section>
+
+        <section id="loadingMessage" style="display: none;">
+            <p>正在加载数据，请稍候...</p>
+        </section>
+
+        <section id="errorMessage" style="display: none;">
+            <p style="color: red;">错误：<span id="errorText"></span></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; DeepFund 项目</p>
+    </footer>
+
+    <script src="api_client.js"></script> <!-- 用于调用后端API的JS -->
+    <script src="ui_controller.js"></script> <!-- 用于控制UI更新和事件处理的JS -->
+    <!-- 如果使用图表库，在这里引入 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+</body>
+</html>
