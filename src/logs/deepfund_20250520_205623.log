@@ -1,0 +1,217 @@
+INFO - Starting historical analysis generation: Config=/Users/sco/DeepFund/src/config/provider/ollama.yaml, Start=2025-05-01, End=2025-05-30
+INFO - Processing 22 trading day(s) from 2025-05-01 to 2025-05-30.
+INFO - --- Processing analysis for date: 2025-05-01 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-01
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-01 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-01 ---
+INFO - --- Processing analysis for date: 2025-05-02 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-02
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-02 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-02 ---
+INFO - --- Processing analysis for date: 2025-05-05 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-05
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-05 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-05 ---
+INFO - --- Processing analysis for date: 2025-05-06 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-06
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-06 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-06 ---
+INFO - --- Processing analysis for date: 2025-05-07 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-07
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-07 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-07 ---
+INFO - --- Processing analysis for date: 2025-05-08 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-08
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-08 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-08 ---
+INFO - --- Processing analysis for date: 2025-05-09 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-09
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-09 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-09 ---
+INFO - --- Processing analysis for date: 2025-05-12 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-12
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-12 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-12 ---
+INFO - --- Processing analysis for date: 2025-05-13 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-13
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-13 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-13 ---
+INFO - --- Processing analysis for date: 2025-05-14 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-14
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-14 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-14 ---
+INFO - --- Processing analysis for date: 2025-05-15 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-15
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-15 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-15 ---
+INFO - --- Processing analysis for date: 2025-05-16 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-16
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-16 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-16 ---
+INFO - --- Processing analysis for date: 2025-05-19 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-19
+INFO - Init DeepFund and run
+INFO - Trading date 2025-05-19 for ollama-test has already been processed or is earlier than the latest processed date (2025-05-20). Skipping.
+INFO - --- Completed processing for date: 2025-05-19 ---
+INFO - --- Processing analysis for date: 2025-05-20 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-20
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 52880dac-820b-43b2-a4d9-80e3792c8c08
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: BABA | Signal: Bullish | Justification: The stock has a moderate PE ratio, low PEG ratio, and relatively high return on assets and equity. Additionally, it has a growing quarterly earnings and revenue growth.
+ERROR - Failed to fetch price data for BABA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+ERROR - Error running deep fund: Failed to make decision
+ERROR - Error during portfolio operations for 2025-05-20: Failed to generate new portfolio 52880dac-820b-43b2-a4d9-80e3792c8c08
+INFO - --- Completed processing for date: 2025-05-20 ---
+INFO - --- Processing analysis for date: 2025-05-21 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-21
+INFO - Init DeepFund and run
+INFO - New portfolio ID: a527c22a-a485-4326-b17d-e5a1af975c94
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: BABA | Signal: Bullish | Justification: Strong quarterly earnings growth (2.964%) and revenue growth (0.066%), high market capitalization ($293258363000), and low beta (0.237) indicate a positive outlook for the company.
+ERROR - Failed to fetch price data for BABA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+ERROR - Error running deep fund: Failed to make decision
+ERROR - Error during portfolio operations for 2025-05-21: Failed to generate new portfolio a527c22a-a485-4326-b17d-e5a1af975c94
+INFO - --- Completed processing for date: 2025-05-21 ---
+INFO - --- Processing analysis for date: 2025-05-22 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-22
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 4b3feeae-211b-44b4-9b55-f47d470faf1f
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: BABA | Signal: Bullish | Justification: Strong revenue growth, high market capitalization, and relatively low PE ratio suggest a solid business with potential for future growth.
+ERROR - Failed to fetch price data for BABA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+ERROR - Error running deep fund: Failed to make decision
+ERROR - Error during portfolio operations for 2025-05-22: Failed to generate new portfolio 4b3feeae-211b-44b4-9b55-f47d470faf1f
+INFO - --- Completed processing for date: 2025-05-22 ---
+INFO - --- Processing analysis for date: 2025-05-23 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-23
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 772fdfbd-7c41-4b61-a9f5-9d3ed690405d
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+ERROR - Error running deep fund: 'NoneType' object has no attribute 'model_dump_json'
+ERROR - Error during portfolio operations for 2025-05-23: Failed to generate new portfolio 772fdfbd-7c41-4b61-a9f5-9d3ed690405d
+INFO - --- Completed processing for date: 2025-05-23 ---
+INFO - --- Processing analysis for date: 2025-05-26 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-26
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 88613688-4b49-4479-8472-4c02ad1b68f6
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+ERROR - Error running deep fund: 'NoneType' object has no attribute 'model_dump_json'
+ERROR - Error during portfolio operations for 2025-05-26: Failed to generate new portfolio 88613688-4b49-4479-8472-4c02ad1b68f6
+INFO - --- Completed processing for date: 2025-05-26 ---
+INFO - --- Processing analysis for date: 2025-05-27 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-27
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 74511971-7e94-47ec-a9a2-ef83cab00c46
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+ERROR - Error running deep fund: 'NoneType' object has no attribute 'model_dump_json'
+ERROR - Error during portfolio operations for 2025-05-27: Failed to generate new portfolio 74511971-7e94-47ec-a9a2-ef83cab00c46
+INFO - --- Completed processing for date: 2025-05-27 ---
+INFO - --- Processing analysis for date: 2025-05-28 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-28
+INFO - Init DeepFund and run
+INFO - New portfolio ID: f85c1109-221d-4a99-b477-efcc4ce0466f
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+ERROR - Error running deep fund: 'NoneType' object has no attribute 'model_dump_json'
+ERROR - Error during portfolio operations for 2025-05-28: Failed to generate new portfolio f85c1109-221d-4a99-b477-efcc4ce0466f
+INFO - --- Completed processing for date: 2025-05-28 ---
+INFO - --- Processing analysis for date: 2025-05-29 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-29
+INFO - Init DeepFund and run
+INFO - New portfolio ID: a0755fda-839f-4392-a3bb-80fad0de1c67
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+ERROR - Error running deep fund: 'NoneType' object has no attribute 'model_dump_json'
+ERROR - Error during portfolio operations for 2025-05-29: Failed to generate new portfolio a0755fda-839f-4392-a3bb-80fad0de1c67
+INFO - --- Completed processing for date: 2025-05-29 ---
+INFO - --- Processing analysis for date: 2025-05-30 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-30
+INFO - Init DeepFund and run
+INFO - New portfolio ID: fc6ed6a7-99b1-47e3-8e1d-ff2e7f9bb481
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+ERROR - Error running deep fund: 'NoneType' object has no attribute 'model_dump_json'
+ERROR - Error during portfolio operations for 2025-05-30: Failed to generate new portfolio fc6ed6a7-99b1-47e3-8e1d-ff2e7f9bb481
+INFO - --- Completed processing for date: 2025-05-30 ---
+INFO - Historical analysis generation finished. Successful runs: 13, Failed runs: 9.

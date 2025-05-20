@@ -1,0 +1,23 @@
+name: deepfund
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.11
+  - pip
+  - pyyaml
+  - pandas
+  - numpy
+  - python-dotenv
+  - requests
+  - yfinance
+  - pip:
+    - pydantic
+    - supabase
+    - langgraph
+    - typing-extensions 
+    - langchain-openai
+    - langchain-anthropic
+    - langchain-deepseek
+    - langchain-ollama
+    - langchain-fireworks

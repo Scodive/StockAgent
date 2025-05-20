@@ -1,0 +1,18 @@
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-17
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 2bc54558-b1af-4d22-9230-c19f955421d3
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: BABA | Signal: Neutral | Justification: The PE ratio is slightly above average, but the PEG ratio suggests relatively low valuation. The dividend yield is lower than average, and quarterly growth rates are positive but not spectacular.
+INFO - Agent: portfolio manager | Ticker: BABA | Status: Risk control
+INFO - Risk Control for BABA| Optimal Position Ratio: 0.2 | Justification: Given the neutral analyst signal and the current portfolio state, I recommend maintaining a moderate position ratio of 0.2.
+INFO - Agent: portfolio manager | Ticker: BABA | Status: Making trading decisions
+INFO - Decision for BABA: Buy | Shares: 161 | Price: 123.46 | Justification: The value of tradable shares (161.0) is positive, indicating we have enough funds to buy more shares.
+INFO - BABA position update: id='2bc54558-b1af-4d22-9230-c19f955421d3' cashflow=75248.54 positions={'MSFT': Position(value=0.0, shares=0), 'NVDA': Position(value=4874.4, shares=36), 'BABA': Position(value=19877.06, shares=161)} | Total Asset Value: 100000.00
+INFO - Final Portfolio: id='2bc54558-b1af-4d22-9230-c19f955421d3' cashflow=75248.54 positions={'MSFT': Position(value=0.0, shares=0), 'NVDA': Position(value=4874.4, shares=36), 'BABA': Position(value=19877.06, shares=161)} | Total Asset Value: 100000.00
+INFO - Updating portfolio to Database
+INFO - DeepFund run completed in 33.07 seconds

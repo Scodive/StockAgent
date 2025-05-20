@@ -1,0 +1,31 @@
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-17
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 1812811e-60e6-4e0d-8579-7e42e945a334
+INFO - Using all verified analysts
+INFO - Active analysts for MSFT: ['fundamental']
+INFO - MSFT workflow compiled successfully
+INFO - Agent: fundamental | Ticker: MSFT | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: MSFT | Signal: Bullish | Justification: Strong buy signal due to high revenue growth and low price-to-book ratio.
+INFO - Agent: portfolio manager | Ticker: MSFT | Status: Risk control
+INFO - Risk Control for MSFT| Optimal Position Ratio: 0.15 | Justification: Strong buy signal due to high revenue growth and low price-to-book ratio. No positions in MSFT or NVDA, indicating potential for growth.
+INFO - Agent: portfolio manager | Ticker: MSFT | Status: Making trading decisions
+INFO - Decision for MSFT: Buy | Shares: 33 | Price: 454.27 | Justification: We can buy more shares since the value of tradable shares is positive and the current price seems reasonable.
+INFO - MSFT position update: id='1812811e-60e6-4e0d-8579-7e42e945a334' cashflow=80134.69 positions={'MSFT': Position(value=14990.91, shares=33), 'NVDA': Position(value=4874.4, shares=36)} | Total Asset Value: 100000.00
+INFO - Using all verified analysts
+INFO - Active analysts for NVDA: ['fundamental']
+INFO - NVDA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: NVDA | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: NVDA | Signal: Neutral | Justification: The company has a high market capitalization and PE ratio, indicating mature growth. However, the PEG ratio above 1 suggests potential overvaluation. Healthy EPS growth and moderate revenue growth indicate sustained performance, but caution is advised due to valuation concerns.
+INFO - Agent: portfolio manager | Ticker: NVDA | Status: Risk control
+INFO - Risk Control for NVDA| Optimal Position Ratio: 0.35 | Justification: Neutral signal with caution advised due to valuation concerns
+INFO - Agent: portfolio manager | Ticker: NVDA | Status: Making trading decisions
+INFO - Decision for NVDA: Buy | Shares: 186 | Price: 135.4 | Justification: We have tradable shares available and can buy more shares.
+INFO - NVDA position update: id='1812811e-60e6-4e0d-8579-7e42e945a334' cashflow=54950.29 positions={'MSFT': Position(value=14990.91, shares=33), 'NVDA': Position(value=30058.8, shares=222)} | Total Asset Value: 100000.00
+INFO - Using all verified analysts
+INFO - Active analysts for XIACY: ['fundamental']
+INFO - XIACY workflow compiled successfully
+INFO - Agent: fundamental | Ticker: XIACY | Status: Fetching financial metrics
+ERROR - Error running deep fund: 'NoneType' object has no attribute 'model_dump_json'
+ERROR - Error during portfolio operations: Failed to generate new portfolio 1812811e-60e6-4e0d-8579-7e42e945a334

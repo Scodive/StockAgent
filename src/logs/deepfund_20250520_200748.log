@@ -1,0 +1,18 @@
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-19
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 8e7e70f9-a7f9-46c9-a54f-a5d649793b3b
+INFO - Using all verified analysts
+INFO - Active analysts for BABA: ['fundamental']
+INFO - BABA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: BABA | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: BABA | Signal: Bullish | Justification: Strong EPS growth, high EBITDA margin, and stable market capitalization suggest a promising outlook for this stock.
+INFO - Agent: portfolio manager | Ticker: BABA | Status: Risk control
+INFO - Risk Control for BABA| Optimal Position Ratio: 0.05 | Justification: Based on a single BULLISH signal with strong justification, I recommend allocating 5% of the portfolio value to MSFT.
+INFO - Agent: portfolio manager | Ticker: BABA | Status: Making trading decisions
+INFO - Decision for BABA: Sell | Shares: 162 | Price: 122.96 | Justification: Current price is lower than historical prices, selling some shares to cut losses.
+INFO - BABA position update: id='8e7e70f9-a7f9-46c9-a54f-a5d649793b3b' cashflow=90106.2 positions={'MSFT': Position(value=0.0, shares=0), 'NVDA': Position(value=4874.4, shares=36), 'BABA': Position(value=4918.4, shares=40)} | Total Asset Value: 99899.00
+INFO - Final Portfolio: id='8e7e70f9-a7f9-46c9-a54f-a5d649793b3b' cashflow=90106.2 positions={'MSFT': Position(value=0.0, shares=0), 'NVDA': Position(value=4874.4, shares=36), 'BABA': Position(value=4918.4, shares=40)} | Total Asset Value: 99899.00
+INFO - Updating portfolio to Database
+INFO - DeepFund run completed in 32.76 seconds

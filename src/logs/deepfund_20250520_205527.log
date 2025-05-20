@@ -1,0 +1,7 @@
+INFO - Starting historical analysis generation: Config=/Users/sco/DeepFund/src/config/provider/ollama.yaml, Start=2025-05-01, End=2025-05-30
+INFO - Processing 22 trading day(s) from 2025-05-01 to 2025-05-30.
+INFO - --- Processing analysis for date: 2025-05-01 ---
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-01
+INFO - Init DeepFund and run

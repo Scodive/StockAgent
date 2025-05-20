@@ -1,0 +1,29 @@
+INFO - Loading configuration from /Users/sco/DeepFund/src/config/provider/ollama.yaml
+INFO - SQLite database initialized
+INFO - Loading config for ollama-test, trading date: 2025-05-16
+INFO - Creating new config for ollama-test
+INFO - Init DeepFund and run
+INFO - New portfolio ID: 767e51c3-25ce-4448-85cf-89af346058ca
+INFO - Using all verified analysts
+INFO - Active analysts for MSFT: ['fundamental']
+INFO - MSFT workflow compiled successfully
+INFO - Agent: fundamental | Ticker: MSFT | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: MSFT | Signal: Bullish | Justification: Strong profit margins, healthy revenue growth, and a low dividend yield suggest long-term potential. However, the high PEG ratio indicates potential overvaluation.
+INFO - Agent: portfolio manager | Ticker: MSFT | Status: Risk control
+INFO - Risk Control for MSFT| Optimal Position Ratio: 0.4 | Justification: The stock has long-term potential due to strong profit margins and healthy revenue growth. However, the high PEG ratio indicates potential overvaluation, so we will set a moderate optimal position ratio.
+INFO - Agent: portfolio manager | Ticker: MSFT | Status: Making trading decisions
+INFO - Decision for MSFT: Hold | Shares: 0 | Price: 454.27 | Justification: Tradable shares are close to 0, indicating no need to buy or sell.
+INFO - MSFT position update: id='767e51c3-25ce-4448-85cf-89af346058ca' cashflow=100000.0 positions={'MSFT': Position(value=0.0, shares=0)} | Total Asset Value: 100000.00
+INFO - Using all verified analysts
+INFO - Active analysts for NVDA: ['fundamental']
+INFO - NVDA workflow compiled successfully
+INFO - Agent: fundamental | Ticker: NVDA | Status: Fetching financial metrics
+INFO - Agent: fundamental | Ticker: NVDA | Signal: Bearish | Justification: The company's high P/E ratio, low dividend yield, and above-average revenue growth rate suggest that the stock is overvalued and due for a correction.
+INFO - Agent: portfolio manager | Ticker: NVDA | Status: Risk control
+INFO - Risk Control for NVDA| Optimal Position Ratio: 0.05 | Justification: Based on the bearish analyst signal, we recommend a more conservative position size to mitigate potential losses.
+INFO - Agent: portfolio manager | Ticker: NVDA | Status: Making trading decisions
+INFO - Decision for NVDA: Buy | Shares: 36 | Price: 135.4 | Justification: There are tradable shares available to buy at the current price.
+INFO - NVDA position update: id='767e51c3-25ce-4448-85cf-89af346058ca' cashflow=95125.6 positions={'MSFT': Position(value=0.0, shares=0), 'NVDA': Position(value=4874.4, shares=36)} | Total Asset Value: 100000.00
+INFO - Final Portfolio: id='767e51c3-25ce-4448-85cf-89af346058ca' cashflow=95125.6 positions={'MSFT': Position(value=0.0, shares=0), 'NVDA': Position(value=4874.4, shares=36)} | Total Asset Value: 100000.00
+INFO - Updating portfolio to Database
+INFO - DeepFund run completed in 67.29 seconds
