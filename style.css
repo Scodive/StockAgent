@@ -1,29 +1,85 @@
-body {
-    font-family: sans-serif;
+/* Reset and Base Styles */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif; /* 更现代的字体栈 */
+    line-height: 1.6;
+    background-color: #f0f2f5; /* 更柔和的背景色 */
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
+/* Header */
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* 深蓝渐变 */
     color: #fff;
-    padding: 1em 0;
+    padding: 25px 20px; /* 增加 padding */
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-header .stock-input-area {
-    margin-top: 10px;
+header h1 {
+    margin-bottom: 20px;
+    font-size: 2.2em; /* 增大标题字号 */
+    font-weight: 500;
+}
+
+.stock-input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* 元素间距 */
+    margin-top: 15px;
+}
+
+.stock-input-area label {
+    font-size: 1.1em;
+}
+
+.stock-input-area input[type="text"] {
+    padding: 12px 15px; /* 增大输入框 padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 250px; /* 固定宽度 */
+    transition: border-color 0.3s ease;
+}
+
+.stock-input-area input[type="text"]:focus {
+    border-color: #2a5298; /* 聚焦时边框颜色 */
+    outline: none;
+}
+
+.stock-input-area button {
+    padding: 12px 25px; /* 增大按钮 padding */
+    background-color: #2ecc71; /* 鲜明的主题色 (绿色) */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.stock-input-area button:hover {
+    background-color: #27ae60; /* 按钮悬停颜色 */
 }
 
 main {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1; /* 让 main 区域占据剩余空间，将 footer 推到底部 */
+    width: 95%;
+    max-width: 1400px; /* 稍微增大最大宽度 */
+    margin: 30px auto;
+    padding: 0; /* 移除 main 的 padding，由内部 section 控制 */
+    background-color: transparent; /* main 背景透明，由 section 卡片提供背景 */
+    box-shadow: none; /* 移除 main 的阴影，由 section 卡片提供 */
 }
 
 section {
@@ -72,7 +128,6 @@ th {
 .signal-buy { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
 .signal-sell { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
 .signal-hold { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
-
 
 footer {
     text-align: center;
